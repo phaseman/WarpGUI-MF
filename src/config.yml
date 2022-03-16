@@ -1,0 +1,81 @@
+# myokanWarpGUI Configuration
+# This is the default configuration.
+# Feel free to edit it to your liking.
+Options:
+  title: "Viewing &n%amount%&r Warps"
+  permission: "essentials.warps.%warp%"
+  Particle:
+    menuOpen:
+      enabled: true
+      particle: LAVA
+      offsetX: 0.5
+      offsetY: 0.5
+      offsetZ: 0.5
+      speed: 1.0
+      amount: 10
+    warpSuccess:
+      enabled: true
+      particle: WITCH_SPELL
+      offsetX: 0.5
+      offsetY: 0.5
+      offsetZ: 0.5
+      speed: 1.0
+      amount: 10
+    warpLocked:
+      enabled: true
+      particle: CRIT
+      offsetX: 0.5
+      offsetY: 0.5
+      offsetZ: 0.5
+      speed: 1.0
+      amount: 10
+  Sound:
+    openMenu:
+      name: BAT_TAKEOFF
+      volume: 1.0
+      pitch: 0.5
+    warpSuccess:
+      name: LEVEL_UP
+      volume: 1.0
+      pitch: 0.5
+    warpLocked:
+      name: VILLAGER_NO
+      volume: 1.0
+      pitch: 1.0
+  Format:
+    Border:
+      material: STAINED_GLASS_PANE:7
+      enchanted: false
+      name: ' '
+      amount: 1
+    Available:
+      material: STAINED_GLASS_PANE:5
+      enchanted: false
+      name: "&a&l&n%name%&r"
+      amount: 1
+      lore:
+        - ""
+        - "&b&lWarp Information:"
+        - "&3&l *&b Coords &7%world% | %x%, %y%, %z%"
+        - "&3&l *&b Warmup &7%warmup% seconds"
+        - ""
+        - "&a&lAVAILABLE"
+        - "&7&o(( Tip: &f&oClick&7&o to warp to this location! ))"
+    Locked:
+      material: STAINED_GLASS_PANE:14
+      enchanted: false
+      name: "&c&l&n%name%&r"
+      amount: 1
+      lore:
+        - ""
+        - "&4&l*&c You don't have permission to use this warp."
+        - ""
+        - "&b&lWarp Information:"
+        - "&3&l *&b Coords &7%world% | %x%, %y%, %z%"
+        - "&3&l *&b Warmup &7%warmup% seconds"
+        - ""
+        - "&c&lLOCKED"
+        - "&7&o(( You do not have permission to use this warp. ))"
+Warps:
+  Crates:
+    material: ENDER_CHEST:0 # Overrides the format icon

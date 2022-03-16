@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WarpGUI-MF">
+    <output-path>$PROJECT_DIR$/out/artifacts/WarpGUI_MF</output-path>
+    <root id="archive" name="WarpGUI-MF.jar">
+      <element id="module-output" name="MFmyokanWarpGUI" />
+    </root>
+  </artifact>
+</component>

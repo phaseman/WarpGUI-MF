@@ -1,0 +1,5 @@
+name: MFmyokanWarpGUI
+version: V1.0.0-TEST
+author: [phaseclan]
+main: ac.minef.warpgui.Main
+depend: [Essentials]

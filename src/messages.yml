@@ -1,0 +1,8 @@
+# myokanWarpGUI Messages
+# This is the default messages configuration.
+# Feel free to edit it to your liking.
+Prefix: '&b&l[!] &b'
+ErrorPrefix: '&c&l[!] &c'
+NO-PERMISSION: You do not have permission to perform this command.
+WARP-SUCCESS: 'You have successfully warped to &6%name%&e.'
+WARP-LOCKED: 'You do not have access to warp to &4%name%&c.'
